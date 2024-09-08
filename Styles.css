@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-image: url('images/Table3.jpg');
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 1024px;
+}
+.header-div {
+    height: 30px;
+    width: 100%;
+}
+.header-button {
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px auto;
+    display: inline-block;
+    width: 30%;
+    min-width: 125px;
+    height: 30px;
+    color: #fff;
+    background: #ff2400;
+    border: none;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    flex: 1;
+    padding: 0px;
+}
+
+.slider_container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.slider {
+    border-radius: 25px;
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slide {
+    min-width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    display: none;
+}
+
+    .slide img {
+        width: 100%;
+    }
+
+.show {
+    opacity: 1;
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+.text-content {
+    text-shadow: 0 0 0px #000;
+    color: #ffc0bd;
+    width: 35%;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.sell-button {
+    background: #ff2400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.text {
+    font-size: 1.3rem;
+}
