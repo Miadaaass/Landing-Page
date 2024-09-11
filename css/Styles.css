@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: url('images/Table3.jpg');
+    background-image: url('../images/Table3.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -54,7 +54,7 @@ header {
 main {
     margin: 0;
     padding: 0;
-    background-image: url('images/background1.jpg');
+    background-image: url('../images/background1.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
